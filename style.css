@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+MX+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+MX+Guides&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+MX+Guides&family=Special+Gothic+Expanded+One&display=swap');
+
+
+body{
+    background-color: #fdf6f0;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #home{
+    background-color:antiquewhite;
+    background-size: cover;
+} */
+
+.head {
+    padding: 0.625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ligi{
+    font-size: 1.5rem;
+    margin-left: 30rem;
+}
+
+.ligi i{
+    padding-left:1rem;
+    color: darkblue;
+}
+
+.contact {
+    position: absolute;
+    right: 1.25rem;
+}
+
+.contact button {
+    text-align: center;
+    border: 0.125rem solid black;
+    border-radius: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cadetblue;
+    font-size: 1.0625rem;
+    margin: 0.3125rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    line-height: 2.5rem;
+    text-transform: capitalize;
+}
+
+.contact button:hover {
+    background-color: rgba(95, 158, 160, 0.835);
+}
+
+.head a {
+    margin-right: 1.25rem;
+    margin-left: 0.625rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.0625rem;
+}
+
+.head a:hover {
+    color: rgba(0, 0, 0, 0.689);
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3.125rem;
+}
+
+.profile {
+    margin-top: 3.125rem;
+}
+
+.profile img {
+    width: 46.875rem;
+    height: 37.5rem;
+    border-radius: 1rem;
+}
+
+.intro {
+    margin-top: 3.125rem;
+    text-align: center;
+}
+
+.intro p {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+    font-size: 2rem;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+}
+
+.container{
+    max-width: 60rem;
+    margin:auto;
+    border:0.2rem solid black;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: burlywood;
+}
+
+.container h2{
+    text-align: center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color:rgba(192, 40, 40, 0.759);
+}
+
+.container p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-stretch: expanded;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    text-align: justify;
+}
+
+.box{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: space-around;
+}
+#projects{
+    margin-top:5rem;
+}
+
+#projects h2{
+    text-align:center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.info img{
+    width: 32rem;
+    height: 20rem;
+}
+
+.info{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:3px solid brown;
+    margin-bottom: 1rem;
+    padding:1rem;
+    border-style:dotted;
+    border-radius: 2rem;
+}
+
+.info a{
+    text-decoration: none;
+    color:chocolate;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#acahis h2{
+    text-align:center;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border:2px solid black;
+    margin-left:15rem;
+    margin-right:15rem;
+}
+
+.acainf{
+    display: flex;
+    justify-content: space-between;
+    padding-left:5rem;
+    padding-right: 5rem;
+}
+
+.acainf p{
+    text-transform:uppercase;
+}
